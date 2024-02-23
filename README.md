@@ -9,6 +9,7 @@ To quickly start using the Template Interpolator without building from source, y
 ```bash
 curl -L https://github.com/cloud37/template-interpolator/releases/download/1.0.0/interpol-arm64 -o interpol && chmod +x interpol
 ```
+
 Replace `interpol-arm64` with the appropriate version for your operating system and architecture.
 
 ## Installation and Building
