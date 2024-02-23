@@ -31,8 +31,8 @@ Where `<your_os>` should be replaced with `darwin` or `linux`, depending on your
 
 You can also use the Makefile to render templates directly. This is done by specifying the template file name after the `render-brace/` or `render-square/` targets:
 
-- For brace delimiters: `make render-brace/template.txt`
-- For square delimiters: `make render-square/template.txt`
+- For brace delimiters: `make render-brace/env-brace.json`
+- For square delimiters: `make render-square/env-square.json`
 
 ### Sprig Library Usage
 
