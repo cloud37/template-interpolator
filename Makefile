@@ -24,9 +24,7 @@ help: ## Displays this help message
 
 ##@ Compilation
 build: ## Cross compile for Darwin and Linux
-	@GOOS=darwin GOARCH=arm64 go build -o ./bin/darwin/$(BINARY_NAME) main.go
 	@GOOS=darwin GOARCH=arm64 go build -o ./bin/darwin/$(BINARY_NAME)-arm64 main.go
-	@GOOS=linux GOARCH=amd64 go build -o ./bin/linux/$(BINARY_NAME) main.go
 	@GOOS=linux GOARCH=amd64 go build -o ./bin/linux/$(BINARY_NAME)-amd64 main.go
 
 clean: ## Remove binary files
