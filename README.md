@@ -2,6 +2,15 @@
 
 The Template Interpolator tool allows you to process text templates by using environment variables and custom delimiters, utilizing the `github.com/Masterminds/sprig/v3` library to enhance template functionality with additional functions. This tool is particularly useful in scenarios where dynamically generated text needs to be created based on environment variables.
 
+## Quick Start
+
+To quickly start using the Template Interpolator without building from source, you can download the pre-compiled binary:
+
+```bash
+curl -L https://github.com/cloud37/template-interpolator/releases/download/1.0.0/interpol-arm64 -o interpol && chmod +x interpol
+```
+Replace `interpol-arm64` with the appropriate version for your operating system and architecture.
+
 ## Installation and Building
 
 This project uses a Makefile for simplifying the building process. To compile the binary for your operating system, use the following command:
